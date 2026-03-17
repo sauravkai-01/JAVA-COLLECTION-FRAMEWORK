@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 public class Array_list {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         ArrayList<Integer> arrlist =new ArrayList<Integer>();
         arrlist.add(10);
         arrlist.add(20);
@@ -10,19 +11,28 @@ public class Array_list {
 
         System.out.println("Index value of 3 : "+arrlist.get(3));
         System.out.println("size of array list : "+arrlist.size());
-        System.out.print("value of list : ");
+
+                        //printing values in list
+        System.out.print("Printing list with loop : ");
         for(int i=0;i<arrlist.size();i++)
         {
             System.out.print(arrlist.get(i)+" ");
         }
-        System.out.println();
-        arrlist.remove(2);// removing 3 index
+        System.out.print("\nPrinting list without loop : ");
         for(int x:arrlist)
         {
             System.out.print(x+" ");
         }
-
+        
+        
+        arrlist.remove(2);// removing 2 index
         System.out.println("\nchecking for 15 : "+arrlist.contains(15));
         System.out.println("checking for 20 : "+arrlist.contains(20));
+        System.out.println(arrlist);
+
+        arrlist.add(2,30);//adding value to index 2
+        arrlist.set(2,35);//updating value of index 2
+        System.out.println(arrlist);
+
     }
 }
