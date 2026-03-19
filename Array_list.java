@@ -7,6 +7,9 @@ public class Array_list {
         It is used to store elements in an ordered sequence and can dynamically grow or shrink in size as elements are added or removed.
         Key Points
         - Dynamic size: Automatically resizes when elements are added or removed.
+        - Index-based access: Provides fast random access to elements.
+        - Maintains order: Preserves the order of insertion.
+
 
         
 
