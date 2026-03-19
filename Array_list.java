@@ -8,14 +8,9 @@ public class Array_list {
         Key Points
         - Dynamic size: Automatically resizes when elements are added or removed.
         - Index-based access: Provides fast random access to elements.
-        - Maintains order: Preserves the order of insertion.
-
-
-        
-
-
-
-
+        - Maintains order: Preserves the order of insertion. 
+        - Allows duplicates & nulls: You can store repeated values and null.
+        - Implements: List, RandomAccess, Cloneable, Serializable.
         */
         ArrayList<Integer> arrlist =new ArrayList<Integer>();
         arrlist.add(10);
