@@ -2,6 +2,14 @@ import java.util.ArrayList;
 public class Array_list {
     public static void main(String[] args) 
     {
+        /*
+        An ArrayList in Java is a resizable array implementation of the  interface in the Java Collection Framework. 
+        It is used to store elements in an ordered sequence and can dynamically grow or shrink in size as elements are added or removed.
+
+
+
+
+        */
         ArrayList<Integer> arrlist =new ArrayList<Integer>();
         arrlist.add(10);
         arrlist.add(20);
