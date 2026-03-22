@@ -12,6 +12,7 @@ public class Array_list {
         - Allows duplicates & nulls: You can store repeated values and null.
         - Implements: List, RandomAccess, Cloneable, Serializable.
         */
+        
         ArrayList<Integer> arrlist =new ArrayList<Integer>();
         arrlist.add(10);
         arrlist.add(20);
@@ -36,6 +37,7 @@ public class Array_list {
         
         
         arrlist.remove(2);// removing 2 index
+        
         System.out.println("\nchecking for 15 : "+arrlist.contains(15));
         System.out.println("checking for 20 : "+arrlist.contains(20));
         System.out.println(arrlist);
