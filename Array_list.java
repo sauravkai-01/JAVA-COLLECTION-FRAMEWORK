@@ -2,6 +2,7 @@ import java.util.ArrayList;
 public class Array_list {
     public static void main(String[] args) 
     {
+
         /*
         An ArrayList in Java is a resizable array implementation of the  interface in the Java Collection Framework. 
         It is used to store elements in an ordered sequence and can dynamically grow or shrink in size as elements are added or removed.
@@ -11,6 +12,13 @@ public class Array_list {
         - Maintains order: Preserves the order of insertion. 
         - Allows duplicates & nulls: You can store repeated values and null.
         - Implements: List, RandomAccess, Cloneable, Serializable.
+
+    • 	📌 Insertion order preserved: Elements are stored in the order they are added. If you add , then , then , the ArrayList will keep them in that sequence.
+    • 	📌 Index-based access: Each element has an index (starting from 0), so you can retrieve or update elements directly using their position.
+    • 	📌 Dynamic resizing: Unlike arrays, ArrayList grows automatically when more elements are added beyond its initial capacity.
+    • 	📌 Duplicates allowed: You can store duplicate elements, and they will appear in the order they were inserted.
+    • 	📌 Null values allowed: ArrayList can store  as an element.
+    
         */
         
         ArrayList<Integer> arrlist =new ArrayList<Integer>();
