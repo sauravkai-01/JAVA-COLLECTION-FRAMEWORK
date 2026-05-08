@@ -5,3 +5,9 @@ Definition: A Java class that extends server functionality by processing request
 Part of: Jakarta EE (formerly Java EE).
 Runs in: A Servlet Container (e.g., Tomcat, Jetty, GlassFish).  
 Purpose: Generate dynamic web content (HTML, JSON, XML, etc.) instead of static pages.
+
+
+Servlet Lifecycle Every servlet goes through these phases:  
+init() → Called once when the servlet is loaded.  
+service() → Handles client requests (doGet, doPost, etc.).  
+destroy() → Called before the servlet is unloaded.
