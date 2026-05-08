@@ -1,0 +1,1 @@
+Java Servlets are server-side Java programs that handle client requests (usually HTTP) and generate dynamic responses, forming the backbone of Java web applications. They run inside a servlet container (like Apache Tomcat) and are widely used in enterprise-level applications for their scalability and efficiency.
