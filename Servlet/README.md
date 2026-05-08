@@ -4,4 +4,4 @@ Java Servlets are server-side Java programs that handle client requests (usually
 Definition: A Java class that extends server functionality by processing requests and producing responses.
 Part of: Jakarta EE (formerly Java EE).
 Runs in: A Servlet Container (e.g., Tomcat, Jetty, GlassFish).
-
+Purpose: Generate dynamic web content (HTML, JSON, XML, etc.) instead of static pages.
