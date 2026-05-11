@@ -10,7 +10,7 @@ public class JDBC {
     public static void main(String[] args) {
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-        }catch (Exception e){
+        }catch (Exception e){ 
             System.out.println(e.getMessage());
         }
 
