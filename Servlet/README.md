@@ -10,4 +10,6 @@ Purpose: Generate dynamic web content (HTML, JSON, XML, etc.) instead of static 
 Servlet Lifecycle Every servlet goes through these phases:  
 init() → Called once when the servlet is loaded.  
 service() → Handles client requests (doGet, doPost, etc.).  
-destroy() → Called before the servlet is unloaded.
+destroy() → Called before the servlet is unloaded.  
+
+<img width="800" height="401" alt="Jsp-servlet-architecture" src="https://github.com/user-attachments/assets/e98820a0-8896-4769-99f6-7f9cece721ee" />
