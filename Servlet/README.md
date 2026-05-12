@@ -12,4 +12,20 @@ init() → Called once when the servlet is loaded.
 service() → Handles client requests (doGet, doPost, etc.).  
 destroy() → Called before the servlet is unloaded.  
 
+import java.io.*;
+import javax.servlet.*;
+import javax.servlet.http.*;
+
+public class HelloServlet extends HttpServlet {
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp)
+            throws ServletException, IOException {
+        
+        resp.setContentType("text/html");
+        PrintWriter out = resp.getWriter();
+        out.println("<h1>Hello, Servlet!</h1>");
+    }
+}
+
+
 <img width="800" height="401" alt="Jsp-servlet-architecture" src="https://github.com/user-attachments/assets/e98820a0-8896-4769-99f6-7f9cece721ee" />
