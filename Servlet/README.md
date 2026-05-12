@@ -12,9 +12,9 @@ init() → Called once when the servlet is loaded.
 service() → Handles client requests (doGet, doPost, etc.).  
 destroy() → Called before the servlet is unloaded.  
 
-import java.io.*;
-import javax.servlet.*;
-import javax.servlet.http.*;
+import java.io.*;  
+import javax.servlet.*;  
+import javax.servlet.http.*;  
 
 public class HelloServlet extends HttpServlet {
     @Override
