@@ -27,5 +27,11 @@ public class HelloServlet extends HttpServlet {
     }  
 }  
 
+Servlet Architecture Workflow  
+- Client sends request → Web server receives it.  
+- Web server passes request to servlet container.    
+- Servlet processes request and generates response.   
+- Response is sent back to client browser.    
+
 
 <img width="800" height="401" alt="Jsp-servlet-architecture" src="https://github.com/user-attachments/assets/e98820a0-8896-4769-99f6-7f9cece721ee" />
