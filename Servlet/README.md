@@ -33,5 +33,11 @@ Servlet Architecture Workflow
 - Servlet processes request and generates response.   
 - Response is sent back to client browser.    
 
+Key Advantages Over CGI. 
+- Performance: Uses threads instead of creating new processes for each request.  
+- Scalability: Efficiently handles multiple requests.  
+- Integration: Can interact with databases, RMI, CORBA, or web services.  
+- Flexibility: Supports multiple response formats (HTML, XML, JSON, images).  
+
 
 <img width="800" height="401" alt="Jsp-servlet-architecture" src="https://github.com/user-attachments/assets/e98820a0-8896-4769-99f6-7f9cece721ee" />
