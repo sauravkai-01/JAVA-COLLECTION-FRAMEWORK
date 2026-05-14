@@ -40,6 +40,12 @@ Key Advantages Over CGI.
 - Flexibility: Supports multiple response formats (HTML, XML, JSON, images).
 
 Servlet vs CGI Comparison
+| Execution | Runs inside server JVM | Starts new process per request |
+| Performance | High (thread-based) | Low (process-based) |
+| Language | Java (platform-independent) | C, Perl, etc. (platform-dependent) |
+| Scalability | Handles multiple requests efficiently | Limited scalability |
+| Security | Managed by Java security manager | Depends on language implementation |
+
 
 
 <img width="800" height="401" alt="Jsp-servlet-architecture" src="https://github.com/user-attachments/assets/e98820a0-8896-4769-99f6-7f9cece721ee" />
