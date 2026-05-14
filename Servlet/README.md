@@ -39,7 +39,7 @@ Key Advantages Over CGI.
 - Integration: Can interact with databases, RMI, CORBA, or web services.  
 - Flexibility: Supports multiple response formats (HTML, XML, JSON, images).
 
-Servlet vs CGI Comparison
+Servlet vs CGI Comparison  
 | Execution | Runs inside server JVM | Starts new process per request |  
 | Performance | High (thread-based) | Low (process-based) |  
 | Language | Java (platform-independent) | C, Perl, etc. (platform-dependent) |  
